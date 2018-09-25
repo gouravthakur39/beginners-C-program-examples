@@ -4,6 +4,8 @@ simple, short and sweet  beginners friendly C language programs
 
 These program are written in codeblocks ide for windows. These programs are not very sophisticated as these are beginners friendly and have many bugs. Anyone who is new to c language can practice these examples. 
 
+![alt text](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Screenshot.PNG)
+
 # List of programs
 
 
