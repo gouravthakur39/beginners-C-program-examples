@@ -19,6 +19,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Swap Value Without Using Third Variable](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SwapValueWithoutUsingThirdVariable.c)
 - [Relational Operators in C](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/RelationalOperators.c)
 - [Ternary Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/TernaryOperator.c)
+- [Leap Year Using Ternary Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/LeapYearTernaryOperator.c)
 
 
 
