@@ -1,4 +1,4 @@
-// Relational operators in c
+// Relational operators in c language
 
 #include<stdio.h>
 int main()
