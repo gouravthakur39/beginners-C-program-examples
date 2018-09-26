@@ -20,7 +20,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Relational Operators in C](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/RelationalOperators.c)
 - [Ternary Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/TernaryOperator.c)
 - [Leap Year Using Ternary Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/LeapYearTernaryOperator.c)
-
+- [Sizeof Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SizeofOperator.c)
 
 
 # Contributing
