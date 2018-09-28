@@ -22,6 +22,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Leap Year Using Ternary Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/LeapYearTernaryOperator.c)
 - [Sizeof Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SizeofOperator.c)
 - [Find ASCII Value](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/FindAsciiValue.c)
+- [Reverse Number](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/ReverseNumber.c)
 
 
 # Contributing
