@@ -37,6 +37,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Vowel or Consonant](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/VowelorConsonant.c)
 - [Calculator using switch case](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/CalcUsingSwitchCase.c)
 - [Bubble Sort](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/BubbleSort.c)
+- [Goto statement](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/GotoStatementEvenOrOdd.c)
 
 
 # Contributing
