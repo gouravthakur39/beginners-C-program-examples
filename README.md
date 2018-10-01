@@ -35,6 +35,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Daily Wage Calc](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DailyWageCalc.c)
 - [Day Name Using Switch Case](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DayNameUsingSwitchCase.c)
 - [Vowel or Consonant](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/VowelorConsonant.c)
+- [Calculator using switch case](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/CalcUsingSwitchCase.c)
 
 
 
