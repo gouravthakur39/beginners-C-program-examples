@@ -28,6 +28,13 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Bitwise AND Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/BitwiseAndOperator.c)
 - [Increment Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/IncrementOperator.c)
 - [Decrement Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DecrementOperator.c)
+- [Nested If Leap Year](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/NestedIfLeapYear.c)
+- [Nested if Greatest Integer](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/NestedifGreatestInteger.c)
+- [Check Character Type](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/CheckCharacterType.c)
+- [Employee Grade](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/EmployeeGrade.c)
+- [Daily Wage Calc](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DailyWageCalc.c)
+- [Day Name Using Switch Case](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DayNameUsingSwitchCase.c)
+- [Vowel or Consonant](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/VowelorConsonant.c)
 
 
 
