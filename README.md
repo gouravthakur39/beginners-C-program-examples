@@ -47,6 +47,8 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Bubble Sort](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/BubbleSort.c)
 - [Goto statement](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/GotoStatementEvenOrOdd.c)
 - [Dice roll with Adjustable sides](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DiceRoll.c)
+- [Dynamic 2D Array Using One Pointer](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DynamicTwoDArrayUsingOnePointer.c)
+- [Dyanamic 2D Array using Array of Pointer](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DynamicTwoDArrayUsingArrayOfPointer.c)
 
 
 # Contributing
