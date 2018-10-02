@@ -1,4 +1,4 @@
-//Simulate a diceroll with an adjustible number of sides using the rand() function.
+//Simulate a diceroll with an adjustable number of sides using the rand() function.
 
 #include <time.h>
 #include <stdlib.h>
