@@ -32,6 +32,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Sizeof Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SizeofOperator.c)
 - [Find ASCII Value](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/FindAsciiValue.c)
 - [Reverse Number](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/ReverseNumber.c)
+- [Reverse Number 2](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/ReverseNumber2.c)
 - [Bitwise Left Shift Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/BitwiseLeftshiftOperator.c)
 - [Bitwise Complement Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/BitwiseComplementOperator.c)
 - [Bitwise AND Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/BitwiseAndOperator.c)
