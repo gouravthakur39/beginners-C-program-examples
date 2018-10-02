@@ -9,6 +9,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - Beautify/Format your code before making a PR. Poorly stuctured code with inconsistent spacing and bad variable name will not be merged. 
 - Use this tool to beautify your code : https://codebeautify.org/c-formatter-beautifier
 - Make sure your program works after beautifying it.
+- #include< stdio.h > is wrong and you must remove whitespaces. #include<stdio.h> is correct.
 - Please check your spellings before making a PR
 - Comment code properly.
 
