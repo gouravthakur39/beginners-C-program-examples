@@ -54,6 +54,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Dyanamic 2D Array using Array of Pointer](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DynamicTwoDArrayUsingArrayOfPointer.c)
 - [Digital Root of a Number](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DigitalRoot.c)
 - [Swap By Reference Vs Swap By Copy](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SwapByRefandCopy.c)
+- [Display Linux Environment Variables](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DisplayLinuxEnvirmentVariables.c)
 
 
 # Contributing
