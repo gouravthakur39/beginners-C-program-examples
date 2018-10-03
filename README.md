@@ -61,6 +61,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Factorial](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Factorial.c)
 - [Get String Length](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/StringLength.c)
 - [Decimal To Binary](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DecimalToBinary.c)
+- [Haystack and Needle (SubString)](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/HaystackAndNeedle_SubString.c)
 
 
 
