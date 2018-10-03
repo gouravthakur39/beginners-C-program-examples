@@ -48,6 +48,8 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Calculator using switch case](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/CalcUsingSwitchCase.c)
 - [Bubble Sort](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/BubbleSort.c)
 - [Insertion Sort](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Insertionsort.c)
+- [Merge Sort](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Mergesort.c)
+- [Quick Sort](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Quicksort.c)
 - [Goto statement](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/GotoStatementEvenOrOdd.c)
 - [Mirror Number](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/MirrorNumber.c)
 - [Dice roll with Adjustable sides](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DiceRoll.c)
