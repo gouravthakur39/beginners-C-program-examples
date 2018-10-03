@@ -1,4 +1,9 @@
 // Program to find the digital root of a number in C
+// The digital root of a number is the single digit that you get by adding 
+// all of the digits of the original number together. If the result of that 
+// is multiple digits, you add those digits together, repeating the process 
+//until you get a single digit. That digit is the digital root of the original number.
+
 #include <stdio.h>
 
 int main() {
@@ -16,4 +21,5 @@ int main() {
       }
    }
    printf("The digital root of %u is %u\n", number, droot);
+   return 0;
 }
