@@ -36,6 +36,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Bitwise Left Shift Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/BitwiseLeftshiftOperator.c)
 - [Bitwise Complement Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/BitwiseComplementOperator.c)
 - [Bitwise AND Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/BitwiseAndOperator.c)
+- [Bitwise Odd or Even](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/BitwiseOddOrEven.c)
 - [Increment Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/IncrementOperator.c)
 - [Decrement Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DecrementOperator.c)
 - [Nested If Leap Year](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/NestedIfLeapYear.c)
