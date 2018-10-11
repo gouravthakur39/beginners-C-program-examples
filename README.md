@@ -66,6 +66,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Pointers in C](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Pointers.c)
 - [Binary Search](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/BinarySearch.c)
 - [Recursion](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Recursion.c)
+- [Segmentation Fault or Bus Error Demo](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SegmentationFaultorBusErrorDemo.c)
 
 
 
