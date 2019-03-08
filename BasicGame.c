@@ -36,20 +36,20 @@ char getDisplayType(unsigned int index, unsigned int playerPosition, char player
 				else return ('L');
 			else return ('W');
 
-			if (index % 5 == 0)
-				if (index % 7 == 0)
-					return('G');
-				else return ('L');
+		if (index % 5 == 0)
+			if (index % 7 == 0)
+				return('G');
+			else return ('L');
 
-				if (index % 7 == 0) {
-					return('G');
-				}
-				else return (' ');
+		if (index % 7 == 0) {
+			return('G');
+		}
+		else return (' ');
 	}
-	
+
 	if (playerName == '#')
 	{
-		
+
 		if (index == 0)
 			return ('C');
 
@@ -83,7 +83,7 @@ void firstLine(unsigned int size) // create the upper line of the square  for th
 {
 	int i;
 
-	for (i = 0; i <size; i++)
+	for (i = 0; i < size; i++)
 	{
 		printf(" ___ ");
 	}
@@ -93,7 +93,7 @@ void firstLine(unsigned int size) // create the upper line of the square  for th
 void secondLine(unsigned int size, unsigned int i, unsigned int playerPosition, char playerName) //create the inside and return the type for the first line
 {
 	int x, j;
-	for (j = 0;j < size; j++)
+	for (j = 0; j < size; j++)
 	{
 		x = j;
 		printf("| %c |", getDisplayType(x, playerPosition, playerName));
@@ -105,7 +105,7 @@ void secondLine2nd(unsigned int size, unsigned int i, unsigned int playerPositio
 	int x, y, z;
 	y = 3 * (size - 1);
 	printf("| %c |", getDisplayType(y, playerPosition, playerName));
-	for (i = 0; i <size - 2;i++)
+	for (i = 0; i < size - 2; i++)
 	{
 		z = 2 * (size - 1) + ((size - 2) - i);
 		printf("| %c |", getDisplayType(z, playerPosition, playerName));
@@ -122,7 +122,7 @@ void thirdLine(unsigned int size) // create lower line for the first and last li
 {
 	int i;
 
-	for (i = 0; i <size; i++)
+	for (i = 0; i < size; i++)
 	{
 		printf("|___|");
 	}
@@ -132,7 +132,7 @@ void upperrow(unsigned int size) // create the upper line for the square of the 
 {
 	int i;
 	printf(" ___");
-	for (i = 0; i < size - 2;i++) {
+	for (i = 0; i < size - 2; i++) {
 		space(size);
 	}
 	printf("  ___");
@@ -143,7 +143,7 @@ void lowerrow(unsigned int size) //create the lower line for the square of the r
 {
 	int i;
 	printf("|___|");
-	for (i = 0; i < size - 2;i++) {
+	for (i = 0; i < size - 2; i++) {
 		space(size);
 	}
 
@@ -157,7 +157,7 @@ void middlerow(unsigned int size, unsigned int i, unsigned int playerPosition, c
 	b = i;
 	q = 3 * (size - 1) + ((size - 1) - i);
 	printf("| %c |", getDisplayType(q, playerPosition, playerName));
-	for (b = 0; b < size - 2;b++) {
+	for (b = 0; b < size - 2; b++) {
 		space(size);
 	}
 	p = size - 1 + i;
@@ -280,27 +280,27 @@ void winGrandPrize(int playerPrizes[], unsigned int* prizeCount) // do the win g
 int loseItem(int playerPrizes[], unsigned int *prizeCount) // do the loseitem fuction
 {
 	int i, j, k, r, ran = 2;
-	
+
 	if (*prizeCount == 0)
 	{
 		printf("Nothing happened,Move On\n");
 	}
 	else
 	{
-		
+
 		ran = getRandom(0, *prizeCount);
 		playerPrizes[ran] = 0;
 		*prizeCount = *prizeCount - 1;
-	prinrf("you lost the prize &d",)
-		for (i = ran - 1;i < MAX; i++) //arange the array in order
-			for (j = i;j < MAX; j++)
-				if (playerPrizes[i] == 0)
-				{
-					k = playerPrizes[i];
-					playerPrizes[i] = playerPrizes[j];
-					playerPrizes[j] = k;
-				}
-	
+		printf("you lost the prize");
+			for (i = ran - 1; i < MAX; i++) //arange the array in order
+				for (j = i; j < MAX; j++)
+					if (playerPrizes[i] == 0)
+					{
+						k = playerPrizes[i];
+						playerPrizes[i] = playerPrizes[j];
+						playerPrizes[j] = k;
+					}
+
 	}
 }
 
@@ -309,7 +309,7 @@ void initPlayer(int *playerScore, int playerPrizes[], unsigned int *prizeCount, 
 {
 	int i;
 	playerPrizes[MAX] = 0;
-	
+
 	*playerScore = 0;
 	printf("playerPrizes: %d\n", playerPrizes[MAX]);
 	*prizeCount = 0;
@@ -323,7 +323,7 @@ void initPlayer(int *playerScore, int playerPrizes[], unsigned int *prizeCount, 
 
 void displayBoard(unsigned int size, unsigned int playerPosition, char playerName) //display the boardgame
 {
-	
+
 	int k, size1, loop;
 	float loop2, playerPosition1, size2;
 	//printf("player name in display board: %c\n", playerName);
@@ -338,12 +338,12 @@ void displayBoard(unsigned int size, unsigned int playerPosition, char playerNam
 	//playerPosition2 = float size;
 	//printf("playerPos: %d\n", playerPosition);
 	loop2 = playerPosition1 / size2;
-	
+
 	loop = trunc(loop2);
 
-	
+
 	k = playerPosition - (4 * (size - 1))*loop;
-	
+
 	playerPosition = k;
 
 	{
@@ -357,7 +357,7 @@ void displayBoard(unsigned int size, unsigned int playerPosition, char playerNam
 		}
 		else {
 
-			for (i = 0; i < size - 1;i++)
+			for (i = 0; i < size - 1; i++)
 			{
 
 				if (i == 0)
@@ -367,13 +367,13 @@ void displayBoard(unsigned int size, unsigned int playerPosition, char playerNam
 					thirdLine(size);
 				}
 			}
-			for (i = 1;i<size - 1;i++)
+			for (i = 1; i < size - 1; i++)
 			{
 				upperrow(size);
 				middlerow(size, i, playerPosition, playerName);
 				lowerrow(size);
 			}
-			for (i = size - 2;i<size - 1;i++)
+			for (i = size - 2; i < size - 1; i++)
 			{
 				firstLine(size);
 				secondLine2nd(size, i, playerPosition, playerName);
@@ -386,10 +386,10 @@ void displayBoard(unsigned int size, unsigned int playerPosition, char playerNam
 int checkout(int *playerScore, int playerPrizes[], unsigned int* prizeCount) //do the checkout
 {
 	int i;
-	for (i = 0; i < *prizeCount;i++)
+	for (i = 0; i < *prizeCount; i++)
 		*playerScore += playerPrizes[i];
 	*prizeCount = 0;
-	printf("You check out for $%d score is now: $%d \n", *playerScore,*playerScore);
+	printf("You check out for $%d score is now: $%d \n", *playerScore, *playerScore);
 	if (*playerScore >= 200)
 	{
 		return 1;
@@ -411,13 +411,13 @@ void playGame(unsigned int size, int *playerScore, int playerPrizes[], unsigned 
 	while (l)
 	{
 		displayBoard(size, *playerPosition, *playerName);
-		
+
 		printf("Score: %d   inventory (%d items): ", *playerScore, *prizeCount);
 		for (i = 0; i < *prizeCount; i++) {
 			printf("%d, ", playerPrizes[i]);
-		
+
 		}
-			
+
 		*playerPosition = *playerPosition + playerRoll(1, 6);
 		if (*playerPosition >= 4 * (size - 1))
 			*playerPosition = *playerPosition - 4 * (size - 1);
@@ -430,17 +430,17 @@ void playGame(unsigned int size, int *playerScore, int playerPrizes[], unsigned 
 		}
 		else if (getDisplayType(*playerPosition, *playerPosition, '#') == 'W')
 		{
-		
+
 			winPrize(playerPrizes, prizeCount);
 		}
 		else if (getDisplayType(*playerPosition, *playerPosition, '#') == 'L')
 		{
-		
+
 			loseItem(playerPrizes, prizeCount);
 		}
 		else if (getDisplayType(*playerPosition, *playerPosition, '#') == 'C')
 		{
-		
+
 
 			if (checkout(playerScore, playerPrizes, prizeCount) == 1)
 			{
@@ -461,7 +461,7 @@ void playGame(unsigned int size, int *playerScore, int playerPrizes[], unsigned 
 
 int main(void)
 {
-	int i,l=1;
+	int i, l = 1;
 	char a, choice;
 	char c = '#';
 	int playerScore;
@@ -478,16 +478,16 @@ int main(void)
 		if (choice == 'p') {
 			printf("Number of players is 1\n");
 			initPlayer(&playerScore, playerPrizes, &prizeCount, &playerName, &playerPosition);
-			
+
 			printf("Enter board size: ");
 			scanf_s("%d", &size);
-		
+
 			playGame(size, &playerScore, playerPrizes, &prizeCount, &playerName, &playerPosition);
-			
+
 
 
 			getchar();
-			
+
 		}
 		if (choice == 's')
 		{
@@ -497,7 +497,7 @@ int main(void)
 			printf("    \\++++++|\n");
 			printf("     \\=====|\n");
 			printf("     0---  0\n");
-			printf("HI SCORE: %d Player Name: %c \n",playerScore,playerName);
+			printf("HI SCORE: %d Player Name: %c \n", playerScore, playerName);
 		}
 		if (choice == 'q')
 		{
