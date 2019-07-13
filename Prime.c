@@ -1,9 +1,9 @@
 //A c program to print prime numbers from 1 to n
 
 #include<stdio.h>
-
+#include<math.h>
 void main(){
-    int num, i, j;
+    int num, i, j,check;
     printf("Enter number: ");
     scanf("%d",&num);
     printf("Prime numbers are:\n");
@@ -14,7 +14,8 @@ void main(){
         for(j=2; j<i; j++)
         {
             //checking if it is divisible by any smaller number
-            if(i%j == 0)
+            check=sqrt(i);
+            if(check%j == 0)
             {
                 //if it is divisible exiting from loop
                 break;
