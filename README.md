@@ -71,6 +71,9 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Recursion](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Recursion.c)
 - [Segmentation Fault or Bus Error Demo](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SegmentationFaultorBusErrorDemo.c)
 - [Structure](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Structure.c)
+- [Swapping 2 Numbers Without a Third Variable or ^](https://github.com/geetanjaliaich/beginners-C-program-examples/blob/FactorialEratosthenes/SwapIntegersWithout3rdVariable(Arithmatic).c)
+- [Print 100 Prime numbers using Seive of Eratosthenes](https://github.com/geetanjaliaich/beginners-C-program-examples/blob/FactorialEratosthenes/PrimeByEratosthenes.c)
+- [Palindrome Number](https://github.com/geetanjaliaich/beginners-C-program-examples/blob/FactorialEratosthenes/PalindromeNumber.c)
 
 
 # Contributing
