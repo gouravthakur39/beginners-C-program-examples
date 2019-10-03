@@ -53,7 +53,7 @@ Example of a segfault crash :<br>
 
 **Special Note for C Programmers :**
 C Programmers need to be extra careful when writing code to take care of buffer overflow because many C functions do have the feature of boundary checking and hence the slightest mistake can lead to a segfault easily.
-Also since allows pointer and low level memory manipulation, it is the programmers duty to check for buffer overflow.
+Also since it allows pointer and low level memory manipulation, it is the programmers duty to check for buffer overflow.
 
 **Thank You !**
 
