@@ -1,0 +1,59 @@
+# Buffer Overflow in C
+
+# What is a buffer?
+A buffer, in terms of a program in execution, can be thought of as a region of computer’s main memory that has certain boundaries in context with the program variable that references this memory.
+### Example Code :
+**char buff[10];**
+
+The above line will declare an array of 10 characters in C. Here buff[0] is the left boundary and buff[9] is the right boundary of the buffer. 
+
+# What is Buffer Overflow?
+![enter image description here](data:image/png;base64,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)
+
+Now that we have seen the idea of a buffer, we can talk about what is meant by buffer overflow.
+A buffer is said to be overflown when the data (meant to be written into memory buffer) gets written past the left or the right boundary of the buffer. This way the data gets written to a portion of memory which does not belong to the program variable that references the buffer.
+
+**Note** : Though in the above case we have taken the example of a character array as a buffer, we can have buffer overflow with different types of data structures as well such as stack, linked lists, etc if we violate their boundary conditions. 
+
+### Example Code :
+**char buff[10];**
+**buff[10] = 'a';** 
+
+The effect of the above code will be that most likely during runtime, your code will throw a Segmentation Fault or Stack Smashing Error.
+This is due to buffer overflow.
+
+**Similarly,**
+
+**char buff[10];**
+**buff[-1] = 'a';** 
+
+This code will also throw the same kind of array index violation errors.
+
+In general accessing a memory location that has not been assigned for your program can lead to buffer overflow.
+Hence, de-referencing dangling pointers, filling array or string with more elements than it is defined to, etc can all lead to a buffer overflow and hence segfault.
+
+**More Examples :**
+1. ***char a[10] = "This string is longer than the buffer can hold";***
+
+2. ***int \*a = (int \*)malloc(10 \* sizeof(int)) ;*** 
+	***a[20] = 100 ;*** 
+	
+	![enter image description here](http://www.cs.fsu.edu/~baker/opsys/notes/graphics/bufferoverflow2.gif)
+## Why does it matter to us?
+
+Buffer overflows are one of the most common and also one of the most notorious errors in programming as they can lead to overwriting of memory and also unexpected program crashes.
+
+The 'Segmentation Fault' error is the most common type of error associated with buffer overflow.
+
+There can also be cases where buffer overflow does not give errors immediately. But what happens in these cases is that the program will secretly overwrite neighboring memory allocated to other programs/same program and eventually will lead to a crash.
+
+Example of a segfault crash :
+![enter image description here](https://qph.fs.quoracdn.net/main-qimg-669ba1b3d021390ed98c70ed29e71d62.webp)
+
+**Special Note for C Programmers :**
+C Programmers need to be extra careful when writing code to take care of buffer overflow because many C functions do have the feature of boundary checking and hence the slightest mistake can lead to a segfault easily.
+Also since allows pointer and low level memory manipulation, it is the programmers duty to check for buffer overflow.
+
+**Thank You !**
+
+
