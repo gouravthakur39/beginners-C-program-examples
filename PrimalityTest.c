@@ -10,20 +10,24 @@ int main()
     int k=0;
     printf("Enter the no. you want to check whether it is prime or not\n");
 	  scanf("%d",&N);//input the no. you want to check
-    for(int j=2;j<sqrt(N);j++)
-    {
-      a=N%j;
-      if(a==0) 
-      {
-        k++;
-        break;
-      }
-    }
-    
-    if(k>0)
-    printf("no\n");//it is not a prime no.
+    if(N==1)
+      printf("no\n");
     else
-    printf("yes\n");//it is a prime no.  
-  } 
+    {
+      for(int j=2;j<=sqrt(N);j++)
+      {
+        a=N%j;
+        if(a==0) 
+        {
+          k++;
+          break;//break is used to reduce time complexity
+        }
+      }
+      if(k>0)
+        printf("no\n");//it is not a prime no.
+      else
+        printf("yes\n");//it is a prime no.  
+    }
+  }
   return 0;
 }
