@@ -34,3 +34,15 @@ int main()
     } 
     return 0; 
 }
+
+/*
+Sample Input
+4
+-1  1 -7 -8
+-10 -8 -5 -2
+0 9 7 -1
+4 4 -2 1
+
+Output
+1
+*/
