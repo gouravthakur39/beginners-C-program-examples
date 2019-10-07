@@ -100,6 +100,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Stack implemenation of linklist](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Stack%20-%20Linked%20List.c)
 - [Swap integers without 3rd variable](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SwapIntegers.c)
 - [Swap value without third variable](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SwapValueWithoutUsingThirdVariable.c)
+- [Identify machine is big-endian or little-endian] (https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/endian.c)
 
 
 
