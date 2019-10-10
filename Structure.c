@@ -1,17 +1,19 @@
 #include <stdio.h>
-struct student
-{
+
+// using the struct keyword and a tag to create a structure
+struct student {
+    // add structure members here, members cannot be initialized here
     char name[50];
     int roll;
     float marks;
-} s;
+}
+s; // variable s is declared with 'student' structure
 
-int main()
-{
+int main() {
     printf("Enter information:\n");
 
     printf("Enter name: ");
-    scanf("%s", s.name);
+    scanf("%s", s.name); // structure members are accessed using the dot(.) operator
 
     printf("Enter roll number: ");
     scanf("%d", &s.roll);
@@ -19,13 +21,11 @@ int main()
     printf("Enter marks: ");
     scanf("%f", &s.marks);
 
-
     printf("Displaying Information:\n");
 
-    printf("Name: ");
-    puts(s.name);
+    printf("Name: %s\n", s.name);
 
-    printf("Roll number: %d\n",s.roll);
+    printf("Roll number: %d\n", s.roll);
 
     printf("Marks: %.1f\n", s.marks);
 
