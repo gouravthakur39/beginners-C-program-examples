@@ -1,0 +1,22 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+double phi =1.6180339; 
+double phi1 =0.6180339;
+double divt =2.2360679;
+int main()
+{
+	int t1;
+	cin>>t1;
+	while(t1--)
+	{
+	long long int  t;
+	long long int a,n;
+	cin>>n;
+	n=(n/2);
+	n++;
+	t=( pow(phi,n)-(pow(-phi1,n)))/divt;
+	cout<<t;
+	}	
+	
+}
