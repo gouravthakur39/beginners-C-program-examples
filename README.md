@@ -85,7 +85,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Decimal to base n conversion](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DecimalToBaseN.c)
 - [Two-way decimal to hexadecimal](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DecimalToHexadecimalViceVersa.c)
 - [Encrypt and Decrypt XOR](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/EncryptDecryptXOR.c)
-- [Fibonnacia Generation](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/FibonacciGeneration.c)
+- [Fibonnaci Generation](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/FibonacciGeneration.c)
 - [Calculate remainder](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/FindRemainder.c)
 - [Check leap year](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/isInputLeapYear.c)
 - [Find largest number](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Largest.c)
