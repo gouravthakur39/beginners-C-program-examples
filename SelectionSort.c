@@ -28,8 +28,10 @@ void selectionSort(int arr[], int n) {
 int main() {
 
   int n, i; //n is size of array
+  printf("Enter the number of elements ");
   scanf("%d",&n);
   int a[n]; //array of n integers to be sorted
+  printf("Enter the elements ");
   for (i = 0; i < n; i++)
     scanf("%d",&a[i]);
 
