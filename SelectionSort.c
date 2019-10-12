@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//function for swapping two numbers
 void swap(int * xp, int * yp) {
   int temp = * xp;
   * xp = * yp;
