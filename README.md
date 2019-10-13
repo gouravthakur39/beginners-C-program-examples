@@ -101,7 +101,9 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Swap integers without 3rd variable](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SwapIntegers.c)
 - [Swap value without third variable](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SwapValueWithoutUsingThirdVariable.c)
 - [Identify machine is big-endian or little-endian](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/endian.c)
-
+- [Pattern Combos](https://github.com/Sudeep25022000/beginners-C-program-examples/blob/master/Pattern%20Combos)
+- [Position of First'n'Second maximum element in Array without sorting](https://github.com/Sudeep25022000/beginners-C-program-examples/blob/master/Position%20of%20First'n'Second%20maximum%20element%20in%20Array%20without%20sorting)
+- [Even Fibonacci numbers](https://github.com/Sudeep25022000/beginners-C-program-examples/blob/master/Even%20Fibonacci%20numbers)
 
 
 # Contributing
