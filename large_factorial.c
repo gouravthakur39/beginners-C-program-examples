@@ -1,14 +1,17 @@
 //c program to find factorial upto input of 5000
 
+
 #include<stdio.h>
 
 int main(){
 	int ans[16500];
 	int testcases;
+	printf("Enter no of test cases: ");
 	scanf("%d", &testcases);
 	while(testcases--){
 		int num;
-		scanf("%d", &nm);
+		printf("Enter number:");
+		scanf("%d", &num);
 		for(int i=0; i<16500; i++)
 			ans[i]=0;
 		ans[0]=1;
@@ -22,10 +25,11 @@ int main(){
 				 carry=m/10;
 			}
 		}
-		int f=0, i=16500-1;
+		int i=16500-1;
 		while(ans[i]==0 && i>=0){
 			i--;
 		}
+		printf("\t%d! =", num);
 		while(i>=0){
 			printf("%d", ans[i]);
 			i--;
