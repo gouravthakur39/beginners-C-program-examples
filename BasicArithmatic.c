@@ -13,8 +13,8 @@ int main()
     modulo = number1%number2;
     printf("Addition of number 1 and number 2 : %d\n",addition);
     printf("Subtraction of number 1 and number 2 : %d\n",subtraction);
-    printf("Multiplication of number 1 and number 2 : %d\n",multiplication);
-    printf("Division of number 1 and number 2 : %d\n",division);
+    printf("product of number 1 and number 2 : %d\n",multiplication);
+    printf("quotient of number 1 and number 2 : %d\n",division);
     printf("Modulo of number 1 and number 2 : %d\n",modulo);
     return 0;
 
