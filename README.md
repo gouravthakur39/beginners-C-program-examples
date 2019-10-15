@@ -101,8 +101,9 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Swap integers without 3rd variable](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SwapIntegers.c)
 - [Swap value without third variable](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SwapValueWithoutUsingThirdVariable.c)
 - [Identify machine is big-endian or little-endian](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/endian.c)
-
-
+- [Perform Selection Sort](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SelectionSort.c)
+- [Calculate Factorial upto input of 5000](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/large_factorial.c)
+- [To check if a matrix is a sparse matrix or not](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SparseMatrix_017.c)
 
 # Contributing
 This is a personal learning project for me.
