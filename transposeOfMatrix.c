@@ -2,8 +2,9 @@
 
 #include <stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
+    clrscr();
     static int array[10][10];
     int i, j, row, col;
 
@@ -36,5 +37,5 @@ int main()
         printf("\n");
     }
 
-    return 0;
+    getch();
 }
