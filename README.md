@@ -1,4 +1,4 @@
-
+﻿
 # Beginners C Program Examples
 ## :octocat: Fork and :eight_pointed_black_star: star this repo
 Simple, short and sweet  beginners friendly C language programs 
@@ -104,7 +104,13 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Perform Selection Sort](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SelectionSort.c)
 - [Calculate Factorial upto input of 5000](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/large_factorial.c)
 - [To check if a matrix is a sparse matrix or not](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SparseMatrix_017.c)
-
+- [Finding Missing Number](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/FindingMissingNumber.c)
+- [Largest sum Contiguos Subarray](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Largest sum Contiguous Subarray.c)
+- [QuadraticEquation](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/QuadraticEquation.c)
+- [find_sum_of_first_n_numbers](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/find_sum_of_first_n_numbers.c)
+- [matrix_multiplication](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/matrix_multiplication.c)
+- [primelessthanN](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/primelessthanN.c)
+- [tower_of_hanoi](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/tower_of_hanoi.c)
 # Contributing
 This is a personal learning project for me.
 
