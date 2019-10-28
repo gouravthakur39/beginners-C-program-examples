@@ -6,7 +6,7 @@ int main()
 	//Defining a string to take input of the number
 	char number[max];
 
-	long long int len,i,count=0;
+	long long int len,i,flag=0;
 
 	//Taking the inputin form of a string
 	printf("Enter a Number: ");
@@ -18,12 +18,14 @@ int main()
 	//Checking if the number is a palindrome or not
 	for(i=0;i<len/2;i++)
 	{
-		if(number[i]==number[len-i-1])
-				count++;
+		if(number[i]!=number[len-i-1])
+		{
+			printf("The entered number %s is not a palindrome\n",number);
+			flag=1;
+			break;
+		}
 	}
-	if(count==len/2)
-		printf("The entered number %s is a palindrome\n",number);
-	else
-		printf("The entered number %s is not a palindrome\n",number);
+	if(flag==0)
+		printf("The entered number %s is a palindrome\n",number);	
 	return 0;
 }
