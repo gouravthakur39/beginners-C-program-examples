@@ -104,6 +104,8 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Perform Selection Sort](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SelectionSort.c)
 - [Calculate Factorial upto input of 5000](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/large_factorial.c)
 - [To check if a matrix is a sparse matrix or not](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SparseMatrix_017.c)
+- [Reverse Integer List](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Reverse_Integer_List.c)
+- [Sieve of Eratosthenes](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Sieve_of_Eratosthenes.c)
 
 # Contributing
 This is a personal learning project for me.
