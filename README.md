@@ -1,15 +1,16 @@
-
 # Beginners C Program Examples
-## :octocat: Fork and :eight_pointed_black_star: star this repo
-Simple, short and sweet  beginners friendly C language programs 
 
-“That's the thing about people who think they hate computers. What they really hate is lousy programmers.” 
+## :octocat: Fork and :eight_pointed_black_star: star this repo
+
+Simple, short and sweet beginners friendly C language programs
+
+“That's the thing about people who think they hate computers. What they really hate is lousy programmers.”
 ― Larry Niven
 
-These program are written in codeblocks ide for windows. These programs are not very sophisticated as these are beginners friendly and have many bugs. Anyone who is new to c language can practice these examples. 
+These program are written in codeblocks ide for windows. These programs are not very sophisticated as these are beginners friendly and have many bugs. Anyone who is new to c language can practice these examples.
 
 - Only programs written in c language will be merged.
-- Beautify/Format your code before making a PR. Poorly stuctured code with inconsistent spacing and bad variable name will not be merged. 
+- Beautify/Format your code before making a PR. Poorly stuctured code with inconsistent spacing and bad variable name will not be merged.
 - Use this tool to beautify your code : https://codebeautify.org/c-formatter-beautifier
 - Make sure your program works after beautifying it.
 - #include< stdio.h > is wrong and you must remove whitespaces. #include<stdio.h> is correct.
@@ -19,6 +20,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 ![alt text](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Screenshot.PNG)
 
 # List of programs
+
 - [Hello World!](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/HelloWorld.c)
 - [Area and circumference](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/AreaAndCircumference.c)
 - [Basic Arithmatic](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/BasicArithmatic.c)
@@ -71,7 +73,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Recursion](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Recursion.c)
 - [Segmentation Fault or Bus Error Demo](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SegmentationFaultorBusErrorDemo.c)
 - [Structure](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Structure.c)
-- [Swapping 2 Numbers Without a Third Variable or ^](https://github.com/geetanjaliaich/beginners-C-program-examples/blob/FactorialEratosthenes/SwapIntegersWithout3rdVariable(Arithmatic).c)
+- [Swapping 2 Numbers Without a Third Variable or ^](<https://github.com/geetanjaliaich/beginners-C-program-examples/blob/FactorialEratosthenes/SwapIntegersWithout3rdVariable(Arithmatic).c>)
 - [Print 100 Prime numbers using Seive of Eratosthenes](https://github.com/geetanjaliaich/beginners-C-program-examples/blob/FactorialEratosthenes/PrimeByEratosthenes.c)
 - [Palindrome Number](https://github.com/geetanjaliaich/beginners-C-program-examples/blob/FactorialEratosthenes/PalindromeNumber.c)
 - [Temperature conversion](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/AllTempScalesConv.c)
@@ -105,8 +107,10 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Calculate Factorial upto input of 5000](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/large_factorial.c)
 - [To check if a matrix is a sparse matrix or not](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SparseMatrix_017.c)
 - [To calculate the Least Common Multiple](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/lcm.c)
+- [Caesar's Cipher](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/caesar_cipher.c)
 
 # Contributing
+
 This is a personal learning project for me.
 
 Please feel free to fork this repo. Pull request to submit more programs.
