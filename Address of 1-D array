@@ -9,9 +9,10 @@ int main()
 	{
 		scanf("%d",&a[i]);
 	}
+	add=(int*)calloc(n,sizeof(int));
 	for(i=0;i<n;i++)
 	{
-		add=(a+(i*sizeof(int)));
-		printf("%u\n",add);
+		
+		printf("%u\n",*(add+i));
 	}
 }
