@@ -1,15 +1,15 @@
 
 # Beginners C Program Examples
 ## :octocat: Fork and :eight_pointed_black_star: star this repo
-Simple, short and sweet  beginners friendly C language programs 
+Simple, short and sweet  beginners friendly C language programs
 
-“That's the thing about people who think they hate computers. What they really hate is lousy programmers.” 
+“That's the thing about people who think they hate computers. What they really hate is lousy programmers.”
 ― Larry Niven
 
-These program are written in codeblocks ide for windows. These programs are not very sophisticated as these are beginners friendly and have many bugs. Anyone who is new to c language can practice these examples. 
+These program are written in codeblocks ide for windows. These programs are not very sophisticated as these are beginners friendly and have many bugs. Anyone who is new to c language can practice these examples.
 
 - Only programs written in c language will be merged.
-- Beautify/Format your code before making a PR. Poorly stuctured code with inconsistent spacing and bad variable name will not be merged. 
+- Beautify/Format your code before making a PR. Poorly stuctured code with inconsistent spacing and bad variable name will not be merged.
 - Use this tool to beautify your code : https://codebeautify.org/c-formatter-beautifier
 - Make sure your program works after beautifying it.
 - #include< stdio.h > is wrong and you must remove whitespaces. #include<stdio.h> is correct.
@@ -58,7 +58,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Mirror Number](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/MirrorNumber.c)
 - [Dice roll with Adjustable sides](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DiceRoll.c)
 - [Dynamic 2D Array Using One Pointer](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DynamicTwoDArrayUsingOnePointer.c)
-- [Dyanamic 2D Array using Array of Pointer](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DynamicTwoDArrayUsingArrayOfPointer.c)
+- [Dynamic 2D Array using Array of Pointer](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DynamicTwoDArrayUsingArrayOfPointer.c)
 - [Digital Root of a Number](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DigitalRoot.c)
 - [Swap By Reference Vs Swap By Copy](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SwapByRefandCopy.c)
 - [Display Linux Environment Variables](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DisplayLinuxEnvirmentVariables.c)
@@ -97,7 +97,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Simple EMI Calculator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SimpleEMICalculator.c)
 - [Simple multiplication table](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SimpleMultiplicationTable.c)
 - [Square root](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SquareRoot.c)
-- [Stack implemenation of linklist](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Stack%20-%20Linked%20List.c)
+- [Stack implementation of linklist](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Stack%20-%20Linked%20List.c)
 - [Swap integers without 3rd variable](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SwapIntegers.c)
 - [Swap value without third variable](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SwapValueWithoutUsingThirdVariable.c)
 - [Identify machine is big-endian or little-endian](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/endian.c)
