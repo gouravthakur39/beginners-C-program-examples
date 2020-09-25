@@ -3,6 +3,5 @@ void main()
 { float a,r;
 printf("Enter the Radius : ");
 scanf("%f",&s);
-a=s*s;
-printf("Area is %f",a);
+printf("Area is of the Square is %f",s*s);
 }

@@ -4,5 +4,5 @@ void main()
 printf("Enter the Radius : ");
 scanf("%f",&r);
 a=3.14*r*r;
-printf("Area is %f",a);
+printf("Area of the Circle is %f",a);
 }
