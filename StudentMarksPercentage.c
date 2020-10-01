@@ -6,6 +6,12 @@ int main()
     int a,b,c,d,e;
     float total,average,percentage;
     printf("Enter marks of 5 subjects : \n");
+    /*
+    int a[5];
+    for(int i=0; i<5; i++){
+        scanf("%d",&a[i];
+    }
+    */
     scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
     total  = a+b+c+d+e;
     average = total/5;
