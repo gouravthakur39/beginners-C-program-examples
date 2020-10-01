@@ -1,5 +1,5 @@
 
-# Beginners C Program Examples
+#  Examples in C Programing for Beginners
 ## :octocat: Fork and :eight_pointed_black_star: star this repo
 Simple, short and sweet  beginners friendly C language programs 
 
