@@ -1,29 +1,32 @@
-//A c program to print prime numbers from 1 to n
-
 #include<stdio.h>
-#include<math.h>
+#include <stdbool.h> 
+#include <string.h>
+
 void main(){
     int num, i, j,check;
     printf("Enter number: ");
     scanf("%d",&num);
     printf("Prime numbers are:\n");
-    //traversing all numbers from 2 to entered integer num
-    for(i=2; i<num; i++)
-    {
-        //loop to check divisibility
-        for(j=2; j<i; j++)
-        {
-            //checking if it is divisible by any smaller number
-            check=sqrt(i);
-            if(check%j == 0)
-            {
-                //if it is divisible exiting from loop
-                break;
-            }
-        }
-        //printing the number if it is never divisible by numbers smaller than itself
-        if(i == j){
-            printf("%d\n", i);
-        }
-    }
+    
+    bool prime[num+1]; 
+    memset(prime, true, (num+1)*sizeof(prime[0])); 
+  
+    for (int p=2; p*p<=num; p++) 
+    { 
+        // If prime[p] is not changed, then it is a prime 
+        if (prime[p] == true) 
+        { 
+            // Update all multiples of p greater than or  
+            // equal to the square of it 
+            // numbers which are multiple of p and are 
+            // less than p^2 are already been marked.  
+            for (int i=p*p; i<=num; i += p) 
+                prime[i] = false; 
+        } 
+    } 
+  
+    // Print all prime numbers 
+    for (int p=2; p<=num; p++) 
+       if (prime[p]) 
+          printf("%d ",p);
 }
