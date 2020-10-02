@@ -1,0 +1,11 @@
+void main()
+{
+
+  int a=10;
+  float p=3.5;
+  char ch='A';
+   clrscr();
+   printf("%d\t%.2f\t%c",a,p,ch);
+   getch();
+}
+

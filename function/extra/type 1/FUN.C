@@ -1,0 +1,21 @@
+drline()
+{
+   printf("wel-come\n");
+}
+main()
+{
+   clrscr();
+   drline();
+   drstar();
+   getch();
+}
+drstar()
+{
+   int i;
+   for(i=1;i<=50;i++)
+   {
+      printf("*");
+    }
+    printf("\n");
+    drline();
+}
