@@ -2,30 +2,34 @@
 //Armstrong number: An n -digit number equal to the sum of the nth powers of its digits.
 //Example: (1^3) + (5^3) + (3^3)= 153
 
-#include<stdio.h>
-#include<math.h>
+ #include <math.h>
+#include <stdio.h>
 
-  void main() {
-    int number, sum = 0, rem = 0, nthPower = 0, digits = 0, temp;
-    printf("Enter a number");
-    scanf("%d", & number);
-    temp = number;
-    //to calculate the number of digits in the number
-    while (number != 0) {
-      number = number / 10;
-      digits++;
-    }
-    number = temp;
-    //to get the nth power of each digit and add it to the sum
-    while (number != 0) {
-      rem = number % 10;
-      nthPower = pow(rem, digits);
-      sum = sum + nthPower;
-      number = number / 10;
-    }
-    //to check if obtained sum is equal to the original number
-    if (sum == temp)
-      printf("The given number is an Armstrong number");
-    else
-      printf("The given number is not an Armstrong number");
-  }
+int main() {
+   int num, orgNum, remainder, n = 0;   //orgnumber=orginalnumber
+   float result = 0.0;
+
+   printf("Enter an integer: ");
+   scanf("%d", &num);
+
+   orgNum = num;
+
+   // store the number of digits of num in n
+   for (orgNum = num; orgNum != 0; ++n) {
+       originalNum /= 10;
+   }
+
+   for (orgNum = num; orgNum != 0; orgNum /= 10) {
+       remainder = orgNum % 10;
+
+      // store the sum of the power of individual digits in result
+      result += pow(remainder, n);
+   }
+
+   // if num is equal to result, the number is an Armstrong number
+   if ((int)result == num)
+    printf("%d is an Armstrong number.", num);
+   else
+    printf("%d is not an Armstrong number.", num);
+   return 0;
+}
