@@ -1,16 +1,16 @@
-// Program to tell if an integer number is even or odd
+// Program to check if an integer is even or odd
 
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
-int number;
-printf("Enter an integer number\n");
-scanf("%d",&number);
-if (number %2 ==0)
-   printf("The number %d is even\n",number);
-else{
-   printf("The number %d is odd\n",number);
-}
-return 0;
+	int number; //declaring variable
+	printf("Enter an integer number\n");
+	scanf("%d",&number);//scanning number
+	if (number %2 ==0)//if number is even, it's remainder when divided by 2 is 0
+	   printf("The number %d is even\n",number);
+	else{
+	   printf("The number %d is odd\n",number);
+	}
 }
