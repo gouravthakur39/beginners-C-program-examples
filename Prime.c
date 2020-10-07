@@ -2,7 +2,9 @@
 
 #include<stdio.h>
 #include<math.h>
+#include<conio.h>
 void main(){
+    clrscr();
     int num, i, j,check;
     printf("Enter number: ");
     scanf("%d",&num);
@@ -26,4 +28,5 @@ void main(){
             printf("%d\n", i);
         }
     }
+    getch();
 }
