@@ -1,4 +1,4 @@
-//Largest number among 3 numbers using ternary operator
+//Finds Largest number among 3 numbers using ternary operator
 
 #include<stdio.h>
 int main()
