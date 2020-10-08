@@ -18,7 +18,7 @@ double squareRoot(int x)
 		// value of 'r' moves closer and closer to the actual root value
 	}
 
-	return r;
+	return r; //returns value
 }
 
 int main()
