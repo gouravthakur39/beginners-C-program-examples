@@ -1,8 +1,7 @@
 #include<stdio.h>
 #define Row 4
 #define Col 3
-void
-spiral_matrix(int r, int c, int arr[Row][Col])
+void spiral_matrix(int r, int c, int arr[Row][Col])
 {
 	int i;
 	int k = 0, l = 0;
@@ -32,8 +31,7 @@ spiral_matrix(int r, int c, int arr[Row][Col])
 	}
 }
 
-int 
-main()
+int main()
 {
 	  int a[Row][Col] = {{1, 2, 3}, {10, 20, 30}, {110, 220, 330}, {1100, 2200, 3300}};
      
