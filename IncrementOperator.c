@@ -1,4 +1,4 @@
-// Increment operator
+// Increment operator used
 
 #include<stdio.h>
 int main()
