@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main()
-{ float a,b,h;
+{ float area,base,height;
 printf("Enter the base : ");
-scanf("%f",&b);
+scanf("%f",&base);
 printf("Enter the height : ");
-scanf("%f",&h);
-a=0.5*b*h;
-printf("Area is %f",a);
+scanf("%f",&height);
+area=0.5*b*h;
+printf("Area is %f",area);
 }

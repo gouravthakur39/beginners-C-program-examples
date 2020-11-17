@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main()
-{ float a,r;
+{ float area,radius;
 printf("Enter the Radius : ");
-scanf("%f",&s);
-a=s*s;
-printf("Area is %f",a);
+scanf("%f",&radius);
+area=3.14*radius*radius;
+printf("Area of the square is %f",area);
 }
