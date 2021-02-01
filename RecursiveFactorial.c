@@ -1,19 +1,21 @@
 #include <stdio.h>
 
-int factorial(int num) {
-  if (num == 1)
-    return 1;
-  else
-    return num * factorial(num - 1);
+unsigned factorial(unsigned num)
+{
+    if (num <= 1)
+	return 1;
+    else
+	return num * factorial(num - 1);
 }
 
-int main() {
-  int number;
+int main(void)
+{
+    unsigned number;
 
-  printf("Type a positive number: ");
-  scanf("%d", & number);
+    printf("Type a positive number: ");
+    scanf("%u", &number);
 
-  printf("%d! is equal to %d", number, factorial(number));
+    printf("%u! is equal to %u\n", number, factorial(number));
 
-  return 0;
+    return 0;
 }
