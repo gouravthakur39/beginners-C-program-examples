@@ -3,12 +3,12 @@
 // of memory bytes
 
 #include<stdio.h>
-int main()
+int main(void)
 {
     int a = 5;
-    char ch = 'X';    // Capital X
-    printf("Size of a : %d Bytes\n" ,sizeof(a));
-    printf("Size of X : %d Bytes\n",sizeof(ch));
+    char ch = 'X';		// Capital X
+    printf("Size of a : %ld Bytes\n", sizeof(a));
+    printf("Size of X : %ld Bytes\n", sizeof(ch));
     return 0;
 
 }
