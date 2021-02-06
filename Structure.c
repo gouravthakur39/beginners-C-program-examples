@@ -1,13 +1,14 @@
 #include <stdio.h>
-struct student
-{
+typedef struct {
     char name[50];
     int roll;
     float marks;
-} s;
+} student_t;
 
-int main()
+int main(void)
 {
+    student_t s;
+
     printf("Enter information:\n");
 
     printf("Enter name: ");
@@ -25,7 +26,7 @@ int main()
     printf("Name: ");
     puts(s.name);
 
-    printf("Roll number: %d\n",s.roll);
+    printf("Roll number: %d\n", s.roll);
 
     printf("Marks: %.1f\n", s.marks);
 
