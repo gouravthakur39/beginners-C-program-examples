@@ -2,10 +2,11 @@
 #include <stdlib.h>
 
 #define SIZE 0x100
-void main(){
-
+int main(void)
+{
 	char *ptr = malloc(SIZE);
 	snprintf(ptr , SIZE , "data : %s " , "hello world");
-	printf("%s",ptr);
+	printf("%s\n",ptr);
 
+    return 0;
 }
