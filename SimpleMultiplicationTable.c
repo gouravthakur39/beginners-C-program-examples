@@ -1,16 +1,21 @@
 #include <stdio.h>
+#include <assert.h>
 
-int main(){
+int main(void)
+{
 
-	int num, i = 1;
+    int num, i = 1;
 
-    printf("Enter a number to calculate the multiplication table up to 10:\n");
+    printf
+	("Enter a number to calculate the multiplication table up to 10:\n");
 
-	scanf("%d", &num);
+    scanf("%d", &num);
+    assert(num >= 0);
+    assert(num <= 9);
 
-	for(i = 1; i <= 10; i++){
-		printf("%d x %d = %d\n", i, num, num * i);
-	}
+    for (i = 1; i <= 10; i++) {
+	printf("%d x %d = %d\n", i, num, num * i);
+    }
 
-	return 0;
+    return 0;
 }
