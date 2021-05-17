@@ -1,34 +1,37 @@
-#include <stdio.h>
-#include <stdlib.h>
+    #include <stdio.h>
+    #include <string.h>
+    #include <stdlib.h>
 
-long long get_gcd_recursive(long long a, long long b)
-{
-	if (a == 0) {
-		return b;
-	} else if (b == 0) {
-		return a;
-	}
+    int gcd(int x, int y) {
+        int r = 0, a, b;
+        a = (x > y) ? x : y; // a is greater number
+        b = (x < y) ? x : y; // b is smaller number
+        r = b;
 
-	/* Swap the two numbers */
-	if (b > a) {
-		a = a - b;
-		b = a + b;
-		a = b - a;
-	}
+        while (a % b != 0) {
+            r = a % b;
+            a = b;
+            b = r;
+        }
+        return r;
+    }     
 
-	long long remainder = a % b;
-	if (remainder == 0) {
-		return b;
-	}
+    int lcm(int x, int y) {
+        int a;
+        a = (x > y) ? x : y; // a is greater number
+        while (1) {
+            if (a % x == 0 && a % y == 0)
+                return a;
+            ++a;
+        }
+    }     
 
-	return get_gcd_recursive(b, remainder);
-}
-
-int main()
-{
-	long long a = 0;
-	long long b = 0;
-	scanf("%lld", &a);
-	scanf("%lld", &b);	
-	printf("%lld", get_gcd_recursive(a, b));
-}
+    int main(int argc, char **argv) {
+        printf("Enter the two numbers: ");
+        int x, y;
+        scanf("%d", &x);
+        scanf("%d", &y);
+        printf("The GCD of two numbers is: %d", gcd(x, y));
+        printf("The LCM of two numbers is: %d", lcm(x, y));
+        return 0;
+    }
