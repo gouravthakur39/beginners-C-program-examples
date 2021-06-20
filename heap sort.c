@@ -4,7 +4,7 @@
 void create(int []);
 void down_adjust(int [],int);
  
-void main()
+int main(void)
 {
 	int heap[30],n,i,last,temp;
 	printf("Enter no. of elements:");
@@ -33,6 +33,8 @@ void main()
 	printf("\nArray after sorting:\n");
 	for(i=1;i<=n;i++)
 		printf("%d ",heap[i]);
+	
+	return 0;
 }
  
 void create(int heap[])
@@ -64,3 +66,4 @@ void down_adjust(int heap[],int i)
 		}
 	}
 }
+	
