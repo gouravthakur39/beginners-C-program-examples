@@ -2,7 +2,8 @@
 
 #include<stdio.h>
 #include<stdlib.h>
-void main()
+
+int main(void)
 {
     int y;
     printf("Enter a year:");
@@ -14,12 +15,12 @@ void main()
          if(y%400==0)
           {
             printf("\n%d is a leap year",y);
-            exit(0);
+            return 0;
           }
          else
            {
             printf("\n%d is not a leap year",y);
-            exit(0);
+            return 0;
            }
       }
       else
@@ -27,5 +28,6 @@ void main()
      }
      else
        printf("\n%d is not a leap year",y);
-
+    
+    return 0;
 }
