@@ -1,6 +1,6 @@
 #include<stdio.h>
-#include<conio.h>
-int main ()
+
+int main(void)
 {
 	int n,i,sum=0;
 	printf("enter n\n");
@@ -11,9 +11,9 @@ int main ()
 		sum=sum+i;
 	}
 	if (n==sum)
-	printf("Entered no. is a perfect no. ");
+		printf("Entered no. is a perfect no.\n");
 	else
-	printf("Entered no. is not a perfect no.");
-	getch();
+		printf("Entered no. is not a perfect no.\n");
+	
 	return 0;
-	}
+}
