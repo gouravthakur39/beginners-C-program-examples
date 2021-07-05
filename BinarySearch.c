@@ -12,7 +12,7 @@
  */
 int binarySearch(int[], int, int, int);
 
-int main() {
+int main(void) {
 	int arr[] = {5, 15, 24, 32, 56, 89};
     /* check length of array */
 	int size_of_array = sizeof(arr) / sizeof(int);
