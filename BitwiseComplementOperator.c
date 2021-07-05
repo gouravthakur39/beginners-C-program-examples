@@ -4,9 +4,9 @@
 
 int main(void)
 {
-	// usually usigned values are used to bitwise opeations
-    unsigned a=14, b;
+	// usually usigned values are used for bitwise opeations
+    int a=14, b;
     b = ~a;
-    printf("Value of c = %u\n",b);
+    printf("Value of c = %d\n",b);
     return 0;
 }

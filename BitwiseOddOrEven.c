@@ -3,19 +3,20 @@
 
 #include<stdio.h>
 
-int main(){
+int main(void){
 
-  int num, mask = 0x1;
+	// usually usigned values are used for bitwise opeations
+  	int num, mask = 0x1;
 
-  printf("Enter a number: ");
-  scanf("%d", &num);
+  	printf("Enter a number: ");
+  	scanf("%d", &num);
 
-  num &= mask;
+  	num &= mask;
 
-  if ( 0 == num)
-    printf("Even Number\n");
-  else
-    printf("Odd Number\n");
+  	if ( 0 == num)
+    	printf("Even Number\n");
+  	else
+    	printf("Odd Number\n");
 
-  return 0;
+  	return 0;
 }
