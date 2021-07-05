@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-int main() {
+int main(void) {
    int number1, number2, addition, subtraction, multiplication, division, modulo;
    printf("Enter two numbers :\n");
    scanf("%d%d", & number1, & number2);
