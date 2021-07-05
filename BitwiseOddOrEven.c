@@ -5,7 +5,7 @@
 
 int main(void){
 
-	// usually usigned values are used for bitwise opeations
+	// usually usigned values are used for bitwise operations
   	int num, mask = 0x1;
 
   	printf("Enter a number: ");
