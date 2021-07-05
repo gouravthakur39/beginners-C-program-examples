@@ -22,5 +22,5 @@ int main(void) {
     //Output
     printf("Student Average = %.1f\n", average);
 
-    system("pause");
     return 0;
+}
