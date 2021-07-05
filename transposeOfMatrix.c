@@ -1,8 +1,8 @@
 //C program to input a matrix of order MxN and find its transpose
 
 #include <stdio.h>
-#include<conio.h>
-int main()
+
+int main(void)
 {
     static int array[10][10];
     int i, j, row, col;
