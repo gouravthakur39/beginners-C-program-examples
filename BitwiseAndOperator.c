@@ -1,7 +1,7 @@
 // Bitwise and operator
 
 #include <stdio.h>
-int main()
+int main(void)
 {
     int a=14, b= 7, c;
     c =a&b;
