@@ -1,7 +1,8 @@
 // Bitwise left shift operator
 
 #include <stdio.h>
-int main()
+
+int main(void)
 {
 	// usually usigned values are used for bitwise opeations
     int a=7, b=2,c;
