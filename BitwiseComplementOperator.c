@@ -1,7 +1,7 @@
 // Bitwise complement operator
 
 #include <stdio.h>
-int main()
+int main(void)
 {
     int a=14, b;
     b = ~a;
