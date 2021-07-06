@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int main(void)
 {
 
 	/** Program to print the following pattern:
@@ -58,8 +58,6 @@ int main()
 		}
         printf("\n");
     }
-	
-	
 	
 	return 0;
 }
