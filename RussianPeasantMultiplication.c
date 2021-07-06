@@ -2,10 +2,9 @@
 numbers that uses a process of halving and doubling. Like standard
  multiplication and division*/
 
-
 #include<stdio.h>
 
-int main()
+int main(void)
 {
 
 	long long int a, b, k, l, sum=0, i=0;
@@ -15,7 +14,6 @@ int main()
 	scanf("%lld %lld", &a, &b);
 	k=a;
 	l=b;
-
 
 // working of algorithm
 	while(a>0)
@@ -28,9 +26,8 @@ int main()
 			i++;
 	}
 
-
 // output
-	printf("PRODUCT OF %lld AND %lld IS = %lld \n",k,l,sum);
+	printf("PRODUCT OF %lld AND %lld IS %lld \n",k,l,sum);
 
 	return 0;
 }
