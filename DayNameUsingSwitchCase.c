@@ -1,6 +1,7 @@
 // Program to display the day name using switch case
 #include <stdio.h>
-int main(){
+
+int main(void){
     int day;
     printf("Enter the day number\n");
     scanf("%d", &day);
@@ -32,5 +33,6 @@ int main(){
         printf("Wrong choice");
     }
 
+	printf("\n");
     return 0;
 }
