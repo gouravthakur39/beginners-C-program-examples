@@ -1,7 +1,9 @@
 #include<stdio.h>
 #include<string.h>
-long long int max=1e6 +5;
-int main()
+
+const long long int max=1e6 +5;
+
+int main(void)
 {
 	//Defining a string to take input of the number
 	char number[max];
