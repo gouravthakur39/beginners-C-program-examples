@@ -20,7 +20,7 @@ void PrintBits(int power, int num){
     printf("\n");
 }
 
-int main() {
+int main(void) {
 
     int num = 0;
     int power = 1;
