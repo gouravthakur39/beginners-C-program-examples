@@ -5,8 +5,10 @@
 7 8 9 10
 .
 */
+
 #include <stdio.h>
-int main()
+
+int main(void)
 {
     int i, j, rows ,num=1;
 
