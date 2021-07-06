@@ -12,8 +12,10 @@
 //-----------------------------------------------------------------------
 
 #include<stdio.h>
-int main(){
-    int hour, amount;
+
+int main(void){
+    int hour;
+    int amount=0;
     printf("Enter number of duty hours\n");
     scanf("%d", &hour);
     if (hour >= 1 && hour <= 8)
@@ -26,7 +28,7 @@ int main(){
         amount = 340 + (hour - 16)*60;
     else if (hour >= 21 && hour <= 24)
         amount = 580 + (hour - 20)*80;
-    printf("Amount incurred by worker : %d", amount);
+    printf("Amount incurred by worker : %d\n", amount);
     return 0;
 
 }
