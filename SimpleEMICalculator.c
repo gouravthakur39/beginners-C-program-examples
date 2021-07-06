@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <math.h>
  
-int main() 
+int main(void) 
 {
-    float principal, rate, time, emi;
+    double principal, rate, time, emi;
 
     printf("Enter principal amount: ");
-    scanf("%f",&principal);
+    scanf("%lf",&principal);
  
     printf("Enter rate of interest: ");
-    scanf("%f",&rate);
+    scanf("%lf",&rate);
  
     printf("Enter time in years: ");
-    scanf("%f",&time);
+    scanf("%lf",&time);
  
     rate=rate/(12*100); /*one month interest*/
     time=time*12; /*one month period*/
