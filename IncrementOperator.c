@@ -1,13 +1,13 @@
 // Increment operator
 
 #include<stdio.h>
-int main()
+int main(void)
 {
     int a= 5, b, c;
-    b = a++ + ++a;  //Right to left
-    c = ++a + a++;  //Right to left
+    b = a++;
+    c = ++a;
 
-    printf("Value of b = %d\n Value of c = %d\n", b,c);
+    printf("Value of b = %d\nValue of c = %d\n", b,c);
     return 0;
 }
 
