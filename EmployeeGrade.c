@@ -1,17 +1,22 @@
 // Program to find employee grade
 // Given TA : 5% , DA : 7.5% , HRA : 10%
 
+#define TA 0.05
+#define DA 0.075
+#define HRA 0.1
+
 #include<stdio.h>
-int main(){
-    float BaseSalary, TA, DA, HRA, GrossSalary;
+
+int main(void){
+    float BaseSalary, ta, da, hra, GrossSalary;
 
     printf("Enter basic salary of employee\n");
     scanf("%f", &BaseSalary);
 
-    TA  = 0.05 * BaseSalary;
-    DA  = 0.075 * BaseSalary;
-    HRA = 0.1 * BaseSalary;
-    GrossSalary = BaseSalary + TA + DA + HRA;
+    ta  = TA * BaseSalary;
+    da  = DA * BaseSalary;
+    hra = HRA * BaseSalary;
+    GrossSalary = BaseSalary + ta + da + hra;
 
     if (GrossSalary >= 100000)
         printf("A grade employee");
@@ -23,6 +28,7 @@ int main(){
         printf("D grade employee");
     else
         printf("E grade employee");
+    printf("\n");
     return 0;
 }
 
