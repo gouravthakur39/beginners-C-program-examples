@@ -1,7 +1,7 @@
 // Decrement operator
 
 #include<stdio.h>
-int main()
+int main(void)
 {
     int a= 5, b, c;
     b = a--;
