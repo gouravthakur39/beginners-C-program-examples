@@ -24,11 +24,12 @@ long long get_gcd_recursive(long long a, long long b)
 	return get_gcd_recursive(b, remainder);
 }
 
-int main()
+int main(void)
 {
 	long long a = 0;
 	long long b = 0;
 	scanf("%lld", &a);
 	scanf("%lld", &b);	
-	printf("%lld", get_gcd_recursive(a, b));
+	printf("gcd is %lld\n", get_gcd_recursive(a, b));
+	return 0;
 }
