@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
    unsigned int number, temp, droot = 0;
    printf("Enter a positive number: ");
    scanf("%u", &number);
