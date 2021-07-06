@@ -1,6 +1,8 @@
-// Program to find ASCII value
+// If ASCII in use , program to find ASCII value
+
 #include <stdio.h>
-int main()
+
+int main(void)
 {
     char c;
     printf("Enter a character: ");
@@ -10,6 +12,6 @@ int main()
 
     // %d displays the integer value of a character
     // %c displays the actual character
-    printf("ASCII value of %c = %d", c, c);
+    printf("ASCII value of %c is %d\n", c, c);
     return 0;
 }
