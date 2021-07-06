@@ -1,12 +1,12 @@
 // Fahrenheit to celcius temp converter
 
 #include<stdio.h>
-int main()
+int main(void)
 {
-        float c, f;
-        printf("Enter temp in fahrenheit :\n");
-        scanf("%f", &f);
-        c = (f-32)*5/9;
-        printf("Temp in celcius is : %f",c);
-
+	double c, f;
+    printf("Enter temp in fahrenheit :\n");
+    scanf("%lf", &f);
+    c = (f-32.0)*5.0/9.0;
+    printf("Temp in celcius is : %f\n",c);
+	return 0;
 }
