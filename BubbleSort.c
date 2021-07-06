@@ -2,7 +2,7 @@
  
 #include <stdio.h>
  
-int main()
+int main(void)
 {
   int array[100], n, c, d, swap;
  

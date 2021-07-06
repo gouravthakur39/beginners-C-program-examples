@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <math.h>//used because of predefined power function
+#include <assert.h>
 
-int main()
+int main(void)
 {
 	long long int n,x,y,b,j=-1,c,d,e,a=0,k=-1,f=0;
 
@@ -12,9 +13,13 @@ int main()
 	
 	printf("enter the base of no.\n");
 	scanf("%lld",&x);
+	assert(x>=0);
+	assert(x<=10);
 	
 	printf("enter the base to which you want to convert\n");
 	scanf("%lld",&y);
+	assert(y>=0);
+	assert(y<=10);
 	
 	while(n>0)
 	{
@@ -34,6 +39,6 @@ int main()
 	    f=e+f;//converted the no. to base user wanted
 	}
 
-	printf("%lld\n",f);
+	printf("Converted number is %lld\n",f);
 	return 0;
 }
