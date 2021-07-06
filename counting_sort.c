@@ -26,7 +26,7 @@ long long* count_sort_naive(long long *arr, long n, long m)
 	return sorted_arr;
 }
 
-int main()
+int main(void)
 {
 	/* Enter the size of the array */
 	long n = 0;
@@ -51,4 +51,6 @@ int main()
 	for (long i = 0; i < n; ++i) {
 		printf("%lld ", arr[i]);
 	}
+	printf("\n");
+	return 0;
 }
