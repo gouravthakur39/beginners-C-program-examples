@@ -1,7 +1,8 @@
 #include <stdio.h>
-int main()
+
+int main(void)
 {
-    int input,i;
+    int input;
     printf("Please input a year and I will tell you if it's a leap year: ");
     scanf("%d",&input);
     if ((input%4==0 && input%100!=0) || input%400==0) {
