@@ -1,7 +1,8 @@
 // Relational operators in c language
 
 #include<stdio.h>
-int main()
+
+int main(void)
 {
     int a, b;
     printf("Enter two numbers a and b respectively\n");
@@ -43,5 +44,4 @@ int main()
         printf("a is equal to b\n");
 
     return 0;
-
 }
