@@ -1,9 +1,8 @@
 #include <stdio.h>
-int main()
+
+int main(void)
 {
-
-
-	/* A no. is said to be palindrome if the number when reversed equals to the same no.  eg: 121*
+	// A no. is said to be palindrome if the number when reversed equals to the same no.  eg: 121*
   
     int n, reversedInteger = 0, remainder, originalInteger;
     printf("Enter an integer: ");
@@ -25,6 +24,6 @@ int main()
         printf("%d is a palindrome.", originalInteger);
     else
         printf("%d is not a palindrome.", originalInteger);
-    
+    printf("\n");
     return 0;
 }
