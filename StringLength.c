@@ -12,16 +12,15 @@ int stringLength(char * word) {
     return (count);
 }
 
-int main() {
-  int   index = 0;
-  char  word[100];
+int main(void) {
+  	char  word[100];
 
-  // Gets single word as input
-  printf("Please enter a word to get its length (< 100 characters): ");
-  scanf("%s", word);
+  	// Gets single word as input
+  	printf("Please enter a word to get its length (< 100 characters): ");
+  	scanf("%s", word);
  
-  // Prints output of stringLength()
-  printf("\"%s\" has a length of %d\n", word, stringLength(word));
+  	// Prints output of stringLength()
+  	printf("\"%s\" has a length of %d\n", word, stringLength(word));
 
-  return (0);
+  	return (0);
 }
