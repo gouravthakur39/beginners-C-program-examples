@@ -29,7 +29,7 @@ void heapifyDown(task* taskList);
 
 
 int main() {
-    task *taskList = malloc(sizeof(int)*CAPACITY);
+    task *taskList = malloc(sizeof(task)*CAPACITY);
     task task;
     int op;
     printf("\tIn this program the greater the priority value of the task, the higher is the priority of the task\n");
