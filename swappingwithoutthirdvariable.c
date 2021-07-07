@@ -1,6 +1,8 @@
 //Swap Values Without using Third Variable.
+
 #include<stdio.h>
-int main()
+
+int main(void)
 {
     int a,b;  /*declaration of variables*/
     printf("Enter Two Numbers\n");
