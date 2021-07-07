@@ -1,8 +1,7 @@
-// Swap two integers without using third variable
-
+// Swap two integers without using third variable , using bitwise ^
 
 #include<stdio.h>
-int main()
+int main(void)
 {
     int a, b;
     printf("Enter two no :\n");
@@ -10,6 +9,6 @@ int main()
     a = a^b;
     b = a^b;
     a=  a^b;
-    printf("After swapping value of a and b : %d,%d",a,b);
+    printf("After swapping value of a and b : %d,%d\n",a,b);
     return 0;
 }
