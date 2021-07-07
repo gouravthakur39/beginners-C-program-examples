@@ -1,10 +1,11 @@
 // Evaluate total, average and percentage of a student
 
 #include<stdio.h>
-int main()
+
+int main(void)
 {
     int a,b,c,d,e;
-    float total,average,percentage;
+    double total,average,percentage;
     printf("Enter marks of 5 subjects : \n");
     scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
     total  = a+b+c+d+e;
