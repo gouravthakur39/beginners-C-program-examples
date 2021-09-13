@@ -18,6 +18,6 @@ gcc -Wall -Wextra -pedantic -lm -std=c11 file_name.c
 Free and capable compilers are [LLVM Clang](https://clang.llvm.org/get_started.html) and [mingw](https://www.mingw-w64.org/downloads/).
 
 ***
-If you are interested this repository , you may donate.
+If you are interested in this repository , you may donate.
 
 
