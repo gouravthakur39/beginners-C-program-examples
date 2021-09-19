@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main(void)
 {
     int i;//loop counter
     int n;//max value

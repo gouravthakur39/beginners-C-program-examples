@@ -50,14 +50,14 @@ int checkAnagram(char *str1, char *str2)
     
     for(ctr = 0; str1[ctr] != '\0'; ctr++)
     {
-        str1ChrCtr[str1[ctr]]++;
+        str1ChrCtr[(int)str1[ctr]]++;
     }
     
     //count frequency of characters in str2 
     
     for(ctr = 0; str2[ctr] != '\0'; ctr++)
     {
-        str2ChrCtr[str2[ctr]]++;
+        str2ChrCtr[(int)str2[ctr]]++;
     }
     
     //compare character counts of both strings 
