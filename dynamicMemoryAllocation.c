@@ -5,8 +5,8 @@
 int main(void)
 {
     char *ptr = malloc(SIZE);
-    snprintf(ptr , SIZE , "data : %s " , "hello world");
-    printf("%s\n",ptr);
+    snprintf(ptr, SIZE, "data : %s ", "hello world");
+    printf("%s\n", ptr);
 
     return 0;
 }

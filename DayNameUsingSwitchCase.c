@@ -1,38 +1,36 @@
 // Program to display the day name using switch case
 #include <stdio.h>
-
-int main(void){
+int main(void)
+{
     int day;
     printf("Enter the day number\n");
     scanf("%d", &day);
-
     switch(day)
     {
-    case 1 :
+    case 1:
         printf("Day is Monday");
         break;
-    case 2 :
+    case 2:
         printf("Day is Tuesday");
         break;
-    case 3 :
+    case 3:
         printf("Day is Wednesday");
         break;
-    case 4 :
+    case 4:
         printf("Day is Thrusday");
         break;
-    case 5 :
+    case 5:
         printf("Day is Friday");
         break;
-    case 6 :
+    case 6:
         printf("Day is Saturday");
         break;
-    case 7 :
+    case 7:
         printf("Day is Sunday");
         break;
     default:
         printf("Wrong choice");
     }
-
-	printf("\n");
+    printf("\n");
     return 0;
 }

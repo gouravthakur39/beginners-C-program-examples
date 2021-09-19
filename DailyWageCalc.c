@@ -5,30 +5,33 @@
 // Duty in hours            Amount in rupees
 // ----------------------------------------
 // Within first 8 hours     100 Rupees
-// Next 4 hours	            20 Rupees/hour
-// Next 4 hours	            40 Rupees/hour
-// Next 4 hours	            60 Rupees/hour
-// Next 4 hours	            80 Rupees/hour
+// Next 4 hours             20 Rupees/hour
+// Next 4 hours             40 Rupees/hour
+// Next 4 hours             60 Rupees/hour
+// Next 4 hours             80 Rupees/hour
 //-----------------------------------------------------------------------
 
-#include<stdio.h>
-
-int main(void){
+#include <stdio.h>
+int main(void)
+{
     int hour;
-    int amount=0;
+    int amount = 0;
     printf("Enter number of duty hours\n");
     scanf("%d", &hour);
-    if (hour >= 1 && hour <= 8)
+    if(hour >= 1 && hour <= 8)
         amount = 100;
-    else if (hour >= 9 && hour <= 12)
-        amount = 100 + (hour - 8)*20;
-    else if (hour >= 13 && hour <= 16)
-        amount = 180 + (hour - 12)*40;
-    else if (hour >= 17 && hour <= 20)
-        amount = 340 + (hour - 16)*60;
-    else if (hour >= 21 && hour <= 24)
-        amount = 580 + (hour - 20)*80;
+
+    else if(hour >= 9 && hour <= 12)
+        amount = 100 + (hour - 8) * 20;
+
+    else if(hour >= 13 && hour <= 16)
+        amount = 180 + (hour - 12) * 40;
+
+    else if(hour >= 17 && hour <= 20)
+        amount = 340 + (hour - 16) * 60;
+
+    else if(hour >= 21 && hour <= 24)
+        amount = 580 + (hour - 20) * 80;
     printf("Amount incurred by worker : %d\n", amount);
     return 0;
-
 }

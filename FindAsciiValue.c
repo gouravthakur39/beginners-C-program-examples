@@ -1,7 +1,6 @@
 // If ASCII in use , program to find ASCII value
 
 #include <stdio.h>
-
 int main(void)
 {
     char c;

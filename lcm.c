@@ -4,14 +4,16 @@
 long get_gcd_euclidian(long d1, long d2)
 {
     /* swap the numbers if d2 is greater than d1 */
-    if (d2 > d1) {
-	d1 = d1 - d2;
-	d2 = d1 + d2;
-	d1 = d2 - d1;
+    if(d2 > d1)
+    {
+        d1 = d1 - d2;
+        d2 = d1 + d2;
+        d1 = d2 - d1;
     }
 
-    if (d2 == 0) {
-	return d1;
+    if(d2 == 0)
+    {
+        return d1;
     }
 
     long rem = d1 % d2;
@@ -21,11 +23,12 @@ long get_gcd_euclidian(long d1, long d2)
 
 long get_lcm_euclidian(long val1, long val2)
 {
-    if (val1 == 0 || val2 == 0) {
-	return 0;
+    if(val1 == 0 || val2 == 0)
+    {
+        return 0;
     }
 
-    long prod = (long) (val1 * val2);
+    long prod = (long)(val1 * val2);
     long gcd = get_gcd_euclidian(val1, val2);
 
     return (prod / gcd);

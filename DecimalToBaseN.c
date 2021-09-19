@@ -1,9 +1,9 @@
 // Convert base10(decimal) values any base
 
-#include<stdio.h>
-#include<assert.h>
+#include <assert.h>
+#include <stdio.h>
 
-const char letters[] = { 'A', 'B', 'C', 'D', 'E', 'F' };
+const char letters[] = {'A', 'B', 'C', 'D', 'E', 'F'};
 
 void printDigit(int, int);
 
@@ -32,22 +32,27 @@ int main(void)
 void printDigit(int num, int base)
 {
 
-    if (num > 0) {
-	// getting current digit to be printed
-	int digit = num % base;
-	num = num - digit;
-	num = num / base;
-	// Call to function to print next digit
-	printDigit(num, base);
-	// If the current digit is more than 9 (eg: 10=A, 11=B)
-	if (digit > 9) {
-	    printf("%c", letters[digit]);
-	}
-	// Else print the digit directly
-	else {
-	    printf("%d", digit);
-	}
-    } else {
-	return;
+    if(num > 0)
+    {
+        // getting current digit to be printed
+        int digit = num % base;
+        num = num - digit;
+        num = num / base;
+        // Call to function to print next digit
+        printDigit(num, base);
+        // If the current digit is more than 9 (eg: 10=A, 11=B)
+        if(digit > 9)
+        {
+            printf("%c", letters[digit]);
+        }
+        // Else print the digit directly
+        else
+        {
+            printf("%d", digit);
+        }
+    }
+    else
+    {
+        return;
     }
 }

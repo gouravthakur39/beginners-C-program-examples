@@ -10,16 +10,16 @@
 
 int main(void)
 {
-    int i, j, rows ,num=1;
+    int i, j, rows, num = 1;
 
     printf("Enter number of rows: ");
-    scanf("%d",&rows);
+    scanf("%d", &rows);
 
-    for(i=1; i<=rows; i++)
+    for(i = 1; i <= rows; i++)
     {
-        for(j=1; j<=i; j++)
+        for(j = 1; j <= i; j++)
         {
-            printf("%3d ",num);
+            printf("%3d ", num);
             num++;
         }
         printf("\n");

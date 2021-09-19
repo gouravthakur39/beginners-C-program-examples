@@ -1,4 +1,3 @@
-
 # Beginners C Program Examples
 
 Compared to [upstream repository](https://github.com/gouravthakur39/beginners-C-program-examples) , many source files are revised. Please help me to improve the codes if you want. 
@@ -12,18 +11,12 @@ There are several recommended books on C. First one is called [K&R](https://www.
 
 ## Linux compile
 ### gcc
-```
 gcc -Wall -Wextra -pedantic -lm -std=c11 file_name.c
-```
 ### executing in the same directory
-```
 ./a.out
-```
 ## Windows compile
 Free and capable compilers are [LLVM Clang](https://clang.llvm.org/get_started.html) and [mingw](https://www.mingw-w64.org/downloads/).
 
-## IDE
-There are many IDEs available. [Code::Blocks](https://www.codeblocks.org/) is free , open source , multi platform. You may search for more and choose what suits you.
 ***
 If you are interested in this repository , you may donate.
 

@@ -4,15 +4,15 @@
 // c as integer and not float.
 
 #include <stdio.h>
-
 int main(void)
 {
     int a, b, c;
     char ch;
     printf("enter two numbers\n");
     scanf("%d%d", &a, &b);
+    while((c = getchar()) != '\n' && c != EOF)
+        ;
 
-    while ((c = getchar()) != '\n' && c != EOF);
     // fflush(stdin);
     // flush the input buffer. You might use this function if you think
     // that there might be
@@ -25,27 +25,27 @@ int main(void)
     printf("4. Enter / for division\n");
     printf("5. enter %% for modulo division\n");
     scanf("%c", &ch);
-    switch (ch) {
+    switch(ch)
+    {
     case '+':
-	c = a + b;
-	break;
+        c = a + b;
+        break;
     case '-':
-	c = a - b;
-	break;
+        c = a - b;
+        break;
     case '*':
-	c = a * b;
-	break;
+        c = a * b;
+        break;
     case '/':
-	c = a / b;
-	break;
+        c = a / b;
+        break;
     case '%':
-	c = a % b;		// Modulus division only works with
-	// integers.
-	break;
+        c = a % b; // Modulus division only works with
+        // integers.
+        break;
     default:
-	printf("wrong choice\n");
+        printf("wrong choice\n");
     }
     printf("calculated value=%d\n", c);
-
     return 0;
 }

@@ -1,22 +1,23 @@
 // Finding given number is Odd or Even using Bitwise AND(&) Operator
 // Checking the Least Significent Bit, if 0 print Even, otherwise print Odd
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main(void){
+int main(void)
+{
 
-	// usually usigned values are used for bitwise operations
-  	int num, mask = 0x1;
+    // usually usigned values are used for bitwise operations
+    int num, mask = 0x1;
 
-  	printf("Enter a number: ");
-  	scanf("%d", &num);
+    printf("Enter a number: ");
+    scanf("%d", &num);
 
-  	num &= mask;
+    num &= mask;
 
-  	if ( 0 == num)
-    	printf("Even Number\n");
-  	else
-    	printf("Odd Number\n");
+    if(0 == num)
+        printf("Even Number\n");
+    else
+        printf("Odd Number\n");
 
-  	return 0;
+    return 0;
 }
