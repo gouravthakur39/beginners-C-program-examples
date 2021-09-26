@@ -3,9 +3,8 @@
 #include <stdio.h>
 int main(void)
 {
-    // usually usigned values are used for bitwise operations
-    int a = 7, b = 2, c;
+    unsigned a = 7, b = 2, c;
     c = a << b;
-    printf("Value of c = %d\n", c);
+    printf("Value of c = %u\n", c);
     return 0;
 }

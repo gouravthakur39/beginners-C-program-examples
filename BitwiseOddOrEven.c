@@ -5,12 +5,10 @@
 
 int main(void)
 {
-
-    // usually usigned values are used for bitwise operations
-    int num, mask = 0x1;
+    unsigned num, mask = 0x1;
 
     printf("Enter a number: ");
-    scanf("%d", &num);
+    scanf("%u", &num);
 
     num &= mask;
 
