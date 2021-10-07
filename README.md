@@ -27,4 +27,4 @@ There are many IDEs available. [Code::Blocks](https://www.codeblocks.org/) is fr
 ***
 If you are interested in this repository , you may donate. :gift:
 
-
+Paypal donation e-mail is ompp00@protonmail.com
