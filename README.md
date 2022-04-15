@@ -24,7 +24,8 @@ Free and capable compilers are [LLVM Clang](https://clang.llvm.org/get_started.h
 
 ## IDE
 There are many IDEs available. [Code::Blocks](https://www.codeblocks.org/) is free , open source , multi platform. You may search for more and choose what suits you.
-***
-If you are interested in this repository , you may donate. :gift:
 
-Paypal donation e-mail is <ompp00@protonmail.com>
+***
+## Donate
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/paypalme/ompp00)
+
