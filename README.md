@@ -106,7 +106,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Calculate Factorial upto input of 5000](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/large_factorial.c)
 - [To check if a matrix is a sparse matrix or not](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SparseMatrix_017.c)
 - [To calculate the Least Common Multiple](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/lcm.c)
-
+- [Lambda in C](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/lambda_in_c.c)
 # Contributing
 This is a personal learning project for me.
 
