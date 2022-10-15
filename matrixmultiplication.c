@@ -1,4 +1,3 @@
-//SMA:
 #include<stdio.h>
 void mul(int c1,int c2;int a[][c1],int b[][c2],int c[][c2],int r1,int c1,int r2,int c2)
 {
