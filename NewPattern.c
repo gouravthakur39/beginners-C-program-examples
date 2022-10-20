@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-int main()
+int main()  
 {
 	int n, i, j, k,l;
 		
@@ -19,7 +19,6 @@ int main()
             printf("%d ", l );
               
 		printf("\n");
-            
     }
 }
 

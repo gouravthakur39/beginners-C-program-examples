@@ -1,12 +1,12 @@
-//Program to Calculate Simple Interest
 #include<stdio.h>
-
-#include<conio.h>
-
-void main() {
-  float P, R, T, SI;
-  scanf("%f%f%f", & P, & R, & T);
-  SI = (P * R * T) / 100;
-  printf("%f", SI);
-  getch();
+void main()
+{ float p,r,t,s;
+printf("Enter the principal : ");
+scanf("%f",&p);
+printf("Enter the rate : ");
+scanf("%f",&r);
+printf("Enter the time : ");
+scanf("%f",&t);
+s=(p*r*t)/100;
+printf("SI is %f",s);
 }
