@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main()
-{ float a,r;
-printf("Enter the Radius : ");
+{ float r;
+printf("____calculating the area of a circle____\nEnter the Radius : ");
 scanf("%f",&r);
-a=3.14*r*r;
-printf("Area is %f",a);
+r=3.14*r*r;
+printf("Area is %f",r);
 }
