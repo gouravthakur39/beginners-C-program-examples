@@ -1,10 +1,8 @@
 
+[Visit my website to know more about me : gouravthakur.com](https://gouravthakur.com)
 # Beginners C Program Examples
 ## :octocat: Fork and :eight_pointed_black_star: star this repo
 Simple, short and sweet  beginners friendly C language programs 
-
-“That's the thing about people who think they hate computers. What they really hate is lousy programmers.” 
-― Larry Niven
 
 These program are written in codeblocks ide for windows. These programs are not very sophisticated as these are beginners friendly and have many bugs. Anyone who is new to c language can practice these examples. 
 
@@ -44,6 +42,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Decrement Operator](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DecrementOperator.c)
 - [Nested If Leap Year](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/NestedIfLeapYear.c)
 - [Nested if Greatest Integer](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/NestedifGreatestInteger.c)
+- [Number to Character](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Number-to-Character.c)
 - [Check Character Type](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/CheckCharacterType.c)
 - [Employee Grade](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/EmployeeGrade.c)
 - [Daily Wage Calc](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DailyWageCalc.c)
@@ -85,7 +84,7 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Decimal to base n conversion](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DecimalToBaseN.c)
 - [Two-way decimal to hexadecimal](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/DecimalToHexadecimalViceVersa.c)
 - [Encrypt and Decrypt XOR](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/EncryptDecryptXOR.c)
-- [Fibonnacia Generation](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/FibonacciGeneration.c)
+- [Fibonnaci Generation](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/FibonacciGeneration.c)
 - [Calculate remainder](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/FindRemainder.c)
 - [Check leap year](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/isInputLeapYear.c)
 - [Find largest number](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Largest.c)
@@ -100,9 +99,12 @@ These program are written in codeblocks ide for windows. These programs are not 
 - [Stack implemenation of linklist](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/Stack%20-%20Linked%20List.c)
 - [Swap integers without 3rd variable](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SwapIntegers.c)
 - [Swap value without third variable](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SwapValueWithoutUsingThirdVariable.c)
-
-
-
+- [Identify machine is big-endian or little-endian](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/endian.c)
+- [Perform Selection Sort](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SelectionSort.c)
+- [Calculate Factorial upto input of 5000](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/large_factorial.c)
+- [To check if a matrix is a sparse matrix or not](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/SparseMatrix_017.c)
+- [To calculate the Least Common Multiple](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/lcm.c)
+- [Lambda in C](https://github.com/gouravthakur39/beginners-C-program-examples/blob/master/lambda_in_c.c)
 # Contributing
 This is a personal learning project for me.
 
