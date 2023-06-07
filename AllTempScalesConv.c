@@ -33,7 +33,7 @@ double convertTemp(double initValue, int initScale, int finalScale){
             }
             // Fahrenheit to Kelvin
             else if(finalScale == 2){
-                finalValue = ((initValue - 32) * 5 / 9) + 273,15;
+                finalValue = ((initValue - 32) * 5 / 9) + 273.15;
             }
             break;
 
