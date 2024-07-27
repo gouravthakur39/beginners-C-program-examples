@@ -17,9 +17,15 @@ int main() {
     /* check length of array */
 	int size_of_array = sizeof(arr) / sizeof(int);
 	/* Check if 24 is into arr */
-	printf("%d\n", binarySearch(arr, 24, 0, size_of_array-1));
+	if(binarySearch(arr, 24, 0, size_of_array-1)==0)
+	    printf("24 is present\n");
+	else 
+	    printf("24 is absent\n");
 	/* Check if 118 is into arr */
-	printf("%d\n", binarySearch(arr, 118, 0, size_of_array-1));
+	if(binarySearch(arr, 118, 0, size_of_array-1)==0)
+	    printf("118 is present\n");
+	else 
+	    printf("118 is absent\n");
 	return 0;
 }
 
@@ -29,18 +35,16 @@ int binarySearch(int array[], int number, int start, int end) {
 		return array[start] == number ? 0 : 1;
 	}
 
-	int tmp = (int) end / 2;
+	int mid =  start+(end-start) / 2;  //to get the middle number (same as int mid=(start+end)/2; )
     /* divide array length in half */
-    /* if number is greater than element in half, do search by start to tmp
-	 * else search by tmp to end
+    /* if number is greater than element in half, do search by start to mid
+	 * else search by mid to end
      */
-	if(number == array[tmp]) {
+	if(number == array[mid]) {
 		return 0;
-	} else if(number > array[tmp]) {
-		return binarySearch(array, number, start, tmp);
+	} else if(number < array[mid]) {
+		return binarySearch(array, number, start, mid-1);
 	} else {
-		return binarySearch(array, number, tmp, end);
+		return binarySearch(array, number, mid+1, end);
 	}
 }
-
-

@@ -17,24 +17,25 @@ void push(int x)
 } 
 void display()
 {
-
+    printf("\n\tElements are:\n");
 	struct node *temp;
 	temp=top;
 	
 	if(top==NULL)
 	{
-		printf("Underflow");
+		printf("Underflow!!!\n");
 	} 
 	else
 	{
 		while(temp!=NULL)
 		{
 		
-			printf("%d",temp->data);
-			printf("\n");
+			printf("\t%d\n",temp->data);
+			
 				temp=temp->link;
 		}
 	}
+	printf("\n");
 }
 void pop()
 {
@@ -43,15 +44,29 @@ void pop()
 
 	if(top==NULL)
 	{
-		printf("No element to deletes ");
+		printf("No element to delete !!\n");
 	}
 	else
 	{
 			temp=top;
-		printf("Popped element is %d\t",temp->data);
+		printf("Popped element is %d\n",temp->data);
 		top=top->link;
 		free(temp);
 	}
+}
+void top_element()
+{   
+    if(top==NULL)   printf("\tNo element to display !!\n");
+    else printf("\tTop element is %d\n",top->data);
+}
+void free_stack()
+{
+    while(top!=NULL){
+        struct node *temp;
+        	temp=top;
+		top=top->link;
+		free(temp);
+    }
 }
 
 int main()
@@ -61,7 +76,7 @@ int main()
 	int x;
 	int ch;
 	do{
-	printf("\t1.Push\t2.pop\t3.display\t4.exit\t");
+	printf("\t1.Push\t2.pop\t3.display\t4.top\t5.Push elements\t6.exit\t: ");
 	scanf("%d",&ch);
 	switch(ch)
 	{
@@ -69,12 +84,143 @@ int main()
 		scanf("%d",&x);
 		push(x);
 		break;
+		
 		case 2:pop();
 		break;
+		
 		case 3:display();
 		break;
-		case 4:exit(0);
+		
+		case 4:top_element();
+		break;
+		
+		case 5:
+		printf("\tEnter number of elements to push\t");
+		int temp;
+		scanf("%d",&temp);
+		    for(int loop=0;loop<temp;loop++){
+		        printf("	Enter element\t");
+		        scanf("%d",&x);  
+		        push(x);
+		    }
+		break;
 	}
-}while(ch!=0);
-getch();
+}while(ch!=6);
+//getch();
+free_stack();
+printf("\n\tProgram ended successfully\n");
+return 0;
+}#include<stdio.h>
+#include<stdlib.h>
+
+struct node 
+{
+	int data;
+	struct node* link;
+} *top=NULL;
+void push(int x)
+{
+
+	struct node *new;
+	new=(struct node*)malloc(sizeof(struct node));
+	new->data=x;
+	new->link=top;
+	top=new;
+} 
+void display()
+{
+    printf("\n\tElements are:\n");
+	struct node *temp;
+	temp=top;
+	
+	if(top==NULL)
+	{
+		printf("Underflow!!!\n");
+	} 
+	else
+	{
+		while(temp!=NULL)
+		{
+		
+			printf("\t%d\n",temp->data);
+			
+				temp=temp->link;
+		}
+	}
+	printf("\n");
+}
+void pop()
+{
+	 
+	struct node *temp;
+
+	if(top==NULL)
+	{
+		printf("No element to delete !!\n");
+	}
+	else
+	{
+			temp=top;
+		printf("Popped element is %d\n",temp->data);
+		top=top->link;
+		free(temp);
+	}
+}
+void top_element()
+{   
+    if(top==NULL)   printf("\tNo element to display !!\n");
+    else printf("\tTop element is %d\n",top->data);
+}
+void free_stack()
+{
+    while(top!=NULL){
+        struct node *temp;
+        	temp=top;
+		top=top->link;
+		free(temp);
+    }
+}
+
+int main()
+{ 
+ 
+
+	int x;
+	int ch;
+	do{
+	printf("\t1.Push\t2.pop\t3.display\t4.top\t5.Push elements\t6.exit\t: ");
+	scanf("%d",&ch);
+	switch(ch)
+	{
+		case 1:printf("	Enter element\t");
+		scanf("%d",&x);
+		push(x);
+		break;
+		
+		case 2:pop();
+		break;
+		
+		case 3:display();
+		break;
+		
+		case 4:top_element();
+		break;
+		
+		case 5:
+		printf("\tEnter number of elements to push\t");
+		int temp;
+		scanf("%d",&temp);
+		    for(int loop=0;loop<temp;loop++){
+		        printf("	Enter element\t");
+		        scanf("%d",&x);  
+		        push(x);
+		    }
+		break;
+	}
+}while(ch!=6);
+
+free_stack();
+
+printf("\n\tProgram ended successfully\n");
+return 0;
 }
