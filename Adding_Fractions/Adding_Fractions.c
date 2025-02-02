@@ -1,8 +1,8 @@
 #include <stdio.h>
-int question(char question[], const char *format){
+int question(char question[], const char *format_sepcifier){
 	int value;
 	printf(question);
-	scanf(format, &value);
+	scanf(format_sepcifier, &value);
 	return value;
 }
 int main(){
