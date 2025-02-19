@@ -4,7 +4,7 @@
  * object.
  * A pointer in C is used to allocate memory dynamically i.e. at run time.
  */
-
+// int*ptr means it stores the address of another variable which is of type integer
 #include <stdio.h>
 
 int main(void) {
