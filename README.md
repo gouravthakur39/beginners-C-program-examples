@@ -1,8 +1,4 @@
 
-[Visit my website to know more about me : gouravthakur.com](https://gouravthakur.com)
-# Beginners C Program Examples
-## :octocat: Fork and :eight_pointed_black_star: star this repo
-Simple, short and sweet  beginners friendly C language programs 
 
 These program are written in codeblocks ide for windows. These programs are not very sophisticated as these are beginners friendly and have many bugs. Anyone who is new to c language can practice these examples. 
 
