@@ -49,7 +49,7 @@ void deletion(){
 }
 
 void updation(){
-    printf("ENTER THE POSITION WHERE U WANT TO UPDATE");
+    printf("ENTER THE POSITION WHERE YOU WANT TO UPDATE");
     scanf("%d",&position);
     if(position>n){
         printf("\n INVALID POSITION\n");
@@ -72,7 +72,7 @@ void linear_search(){
         }
     }
     if(choice!=20){
-        printf("\nELEMNT NOT FOUND!!!");
+        printf("\nELEMENT NOT FOUND!!!");
     }
     menu();
 }
@@ -197,3 +197,4 @@ int main(){
 
    return 0;
 }
+

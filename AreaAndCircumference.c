@@ -3,11 +3,12 @@
 #include<stdio.h>
 int main()
 {
-    float r, a ,c;
+    float radius, area ,circumference;
     printf("enter radius :\n");
-    scanf("%f", &r);
-    a = 3.14*r*r;
-    c = 2*3.14*r;
-    printf("Area = %f\n circumference = %f\n",a,c);
+    scanf("%f", &radius);
+    area = 3.14*radius*radius;
+    circumference = 2*3.14*radius;
+    printf("Area = %f\n circumference = %f\n",area,circumference);
     return 0;
 }
+
