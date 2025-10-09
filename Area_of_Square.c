@@ -1,8 +1,11 @@
 #include<stdio.h>
-void main()
-{ float a,r;
-printf("Enter the Radius : ");
-scanf("%f",&s);
-a=s*s;
-printf("Area is %f",a);
+int main()
+{ float area,side,perimeter;
+printf("Enter the length of side: ");
+scanf("%f",&side);
+area=side*side;
+perimeter=4*side;
+printf("Area is %f",area);
+printf("Perimeter is %f", perimeter);
+return 0;
 }
