@@ -1,8 +1,11 @@
 #include<stdio.h>
-void main()
-{ int a,b,c;
+int main()
+{ int a,b,sum,difference;
 printf("Enter two Numbers : ");
 scanf("%d %d",&a,&b);
-c=a+b;
-printf("The Sum is %d",c);
+sum=a+b;
+difference=a-b;
+printf("The Sum is %d",sum);
+printf("The Difference is %d",difference);
+return 0;
 }
