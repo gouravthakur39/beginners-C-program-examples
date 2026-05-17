@@ -5,7 +5,7 @@
 #include<stdio.h>
 #include<math.h>
 
-  void main() {
+  int main() {
     int number, sum = 0, rem = 0, nthPower = 0, digits = 0, temp;
     printf("Enter a number");
     scanf("%d", & number);
@@ -28,4 +28,5 @@
       printf("The given number is an Armstrong number");
     else
       printf("The given number is not an Armstrong number");
+    return 0;
   }
